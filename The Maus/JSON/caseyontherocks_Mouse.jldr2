@@ -1,0 +1,17 @@
+{
+  "name": "caseyontherocks_Mouse",
+  "modPrefix": "IGCC",
+  "displayedName": "Mouse",
+  "description": "You were always so curious about cards, vermin. Perhaps you will enjoy being one.",
+  "metaCategories": [ "ChoiceNode", "TraderOffer" ],
+  "cardComplexity": "Simple",
+  "temple": "Nature",
+  "baseAttack": 1,
+  "baseHealth": 2,
+  "bloodCost": 1,
+  "tribes": [ "Squirrel" ],
+  "abilities": [ "Tutor" ],
+  "specialAbilities": [ "TalkingCardChooser" ],
+  "texture": "e_face.png",
+  "tailName": "Tail_Furry"
+}

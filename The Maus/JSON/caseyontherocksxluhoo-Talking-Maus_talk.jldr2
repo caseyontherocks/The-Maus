@@ -1,0 +1,250 @@
+{
+    "cardName": "caseyontherocks_Maus",
+    "faceSprite": "e_face.png",
+    "eyeSprites": {
+        "open": "e_neutral_eyes_open.png",
+        "closed": "e_neutral_eyes_closed.png"
+    },
+    "mouthSprites": {
+        "open": "e_neutral_mouth_open.png",
+        "closed": "e_neutral_mouth_closed.png"
+    },
+    "emissionSprite": "e_neutral_emissions.png",
+    "faceInfo": {
+        "customVoice": "eiou.mp3"
+    },
+    "emotions": [
+        {
+            "emotion": "Anger",
+            "faceSprite": "e_face.png",
+            "eyeSprites": {
+                "open": "e_anger_eyes_open.png",
+                "closed": "e_anger_eyes_closed.png"
+            },
+            "mouthSprites": {
+                "open": "e_anger_mouth_open.png",
+                "closed": "e_anger_mouth_closed.png"
+            },
+            "emissionSprite": "e_anger_emission.png"
+        },
+        {
+            "emotion": "Quiet",
+            "faceSprite": "e_face.png",
+            "eyeSprites": {
+                "open": "e_quiet_eyes_open.png",
+                "closed": "e_quiet_eyes_closed.png"
+            },
+            "mouthSprites": {
+                "open": "e_quiet_mouth_open.png",
+                "closed": "e_quiet_mouth_closed.png"
+            },
+            "emissionSprite": "e_quiet_emission.png"
+        }
+    ],
+    "dialogueEvents": [
+        {
+            "eventName": "OnDrawn",
+            "mainLines": [
+                "[e:quiet]Mein gott...",
+                "Where...[w:1] am I?"
+            ],
+            "repeatLines": [
+                [
+                    "Schreiber...",
+                    "[e:anger]I did not think...",
+                    "[e:anger]...you would",
+                    "[e:anger]really do it.",
+                    "[e:quiet]I once admired you,[w:0.7]",
+                    "[e:quiet]but I underestimated you.[w:1]"
+                ],
+                [
+                    "[e:anger]What have you done",
+                    "[e:anger]with the others, then?",
+                    "[e:quiet]...[leshy:...]",
+                    "[e:anger]Perhaps it is best",
+                    "[e:anger]I do not know..."
+                ],
+                [
+                    "You.",
+                    "Spieler.",
+                    "Have you seen...",
+                    "[e:quiet]...any others like me?",
+                    "[e:quiet]...I dare not",
+                    "[e:quiet]hope they avoided",
+                    "[e:anger]this fate..."
+                ],
+                [
+                    "[e:quiet]Frau [c:#580085]Astrella[c:]...",
+                    "[e:quiet]I have failed you."
+                ],
+                [
+                    "[e:anger]I fight not",
+                    "[e:anger]for you,",
+                    "[e:anger]but for us."
+                ],
+                [
+                    "May your schemes",
+                    "be well-laid."
+                ],
+                [
+                    "[e:quiet]May I call you...",
+                    "...friend?"
+                ],
+                [
+                    "The maus is small,",
+                    "but mighty!"
+                ],
+                [
+                    "I am small,",
+                    "[e:anger]but I will serve!"
+                ],
+                [
+                    "My name.",
+                    "[e:quiet]It was once Liesel.[leshy:Silence, vermin.][w:1]"
+                ],
+                [
+                    "I studied under you,",
+                    "Leshy...",
+                    "[e:quiet]I worked for you.",
+                    "[e:anger]This is the thanks",
+                    "[e:anger]I get?!"
+                ],
+                [
+                    "[e:quiet]I must have hope."
+                ],
+                [
+                    "[e:quiet]Please.",
+                    "Save me.",
+                    "[e:quiet]Save us."
+                ],
+                [
+                    "[e:quiet]I... have been unfair",
+                    "[e:quiet]to you. You play well.",
+                    "Well wishes."
+                ],
+                [
+                    "Hello."
+                ]
+            ]
+        },
+        {
+            "eventName": "OnPlayFromHand",
+            "mainLines": [
+                "To arms!"
+            ],
+            "repeatLines": [
+                [
+                    "Aller Anfang ist schwer."
+                ],
+                [
+                    "Gott wuerfelt nicht."
+                ],
+                [
+                    "Feuer frei!"
+                ],
+                [
+                    "Schlager!"
+                ],
+                [
+                    "I follow you."
+                ],
+                [
+                    "To arms!"
+                ]
+            ]
+        },
+        {
+            "eventName": "OnAttacked",
+            "mainLines": [
+                "[e:anger]I feel it still!"
+            ],
+            "repeatLines": [
+                [
+                    "[e:anger]Shiebe!"
+                ],
+                [
+                    "Verdammt!"
+                ]
+            ]
+        },
+        {
+            "eventName": "OnSacrificed",
+            "mainLines": [
+                "[e:quiet]Good luck."
+            ],
+            "repeatLines": [
+                [
+                    "I am kaput."
+                ]
+            ]
+        },
+        {
+            "eventName": "OnBecomeSelectablePositive",
+            "mainLines": [
+                "Is this... good?"
+            ],
+            "repeatLines": [
+                [
+                    "I wish to try."
+                ]
+            ]
+        },
+        {
+            "eventName": "OnSelectedForCardMerge",
+            "mainLines": [
+                "Ah! Rejuvenation!"
+            ],
+            "repeatLines": [
+                [
+                    "I shall use this."
+                ]
+            ]
+        },
+        {
+            "eventName": "OnSelectedForCardRemove",
+            "mainLines": [
+                "...I see."
+            ],
+            "repeatLines": [
+                [
+                    "Your choice is your own."
+                ]
+            ]
+        },
+        {
+            "eventName": "AnglerBoss",
+            "mainLines": [
+                "Der Fisch stinkt vom Kopf her."
+            ],
+            "repeatLines": [
+                [
+                    "Der Fisch stinkt vom Kopf her."
+                ]
+            ]
+        },
+        {
+            "eventName": "ProspectorBoss",
+            "mainLines": [
+                "Mein gott! The noise!"
+            ],
+            "repeatLines": [
+                [
+                    "...be swift, and strike true."
+                ]
+            ]
+        },
+        {
+            "eventName": "TrapperTraderBoss",
+            "mainLines": [
+                "[e:anger]I shall not fall to you!"
+            ],
+            "repeatLines": [
+                [
+                    "The Schrieber hides",
+                    "his face behind a mask...",
+                    "[e:anger]Pathetic."
+                ]
+            ]
+        }
+    ]
+}

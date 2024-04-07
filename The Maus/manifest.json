@@ -1,0 +1,11 @@
+{
+    "name": "The_Maus",
+    "version_number": "1.0.0",
+    "website_url": "https://https://github.com/caseyontherocks/The-Maus",
+    "description": "Adds a talking Mouse (rather, Maus) card to Act 1, with subtle lore. Works best  Jackalope! Collaboration with [luhooo](https://thunderstore.io/c/inscryption/p/luuhooo/).",
+    "dependencies": [
+      "BepInEx-BepInExPack_Inscryption-5.4.1901",
+      "API_dev-API-2.9.1",
+      "MADH95Mods-JSONCardLoader-2.3.0"
+    ]
+}
